@@ -1,1 +1,1 @@
-for i in range(1,101):print('Fizz'if i%3<1else''+'Buzz'if i%5<1else''or i)
+for i in range(1,101):print(f"{'Fizz'if i%3<1else''}{'Buzz'if i%5<1else''}"or i)
