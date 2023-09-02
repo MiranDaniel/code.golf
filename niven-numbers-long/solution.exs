@@ -1,0 +1,1 @@
+for i<-1..10000,do: if rem(i,Enum.sum(Integer.digits(i)))<1,do: IO.puts(i)
