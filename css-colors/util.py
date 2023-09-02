@@ -43,4 +43,3 @@ d = d.replace("Violet","&")
 d = d.replace("'",'"')
 
 print(d)
-
