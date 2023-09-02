@@ -1,0 +1,1 @@
+[println(i) for i=1:10000if i%sum(digits(i))<1]

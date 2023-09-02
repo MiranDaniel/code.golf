@@ -1,0 +1,1 @@
+use List::Util qw{sum};for my$i(1..10000){my@j=split//,$i;my$k=sum@j;my$l=$i% $k<1;say$i if$l}

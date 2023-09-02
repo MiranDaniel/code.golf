@@ -1,0 +1,1 @@
+class Main{public static void main(String[]a){for(int i=1;i<10001;i++)if(i%(""+i).chars().map(Character::getNumericValue).sum()<1)System.out.println(i);}}
