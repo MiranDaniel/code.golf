@@ -1,0 +1,1 @@
+$r="How much0 w2a01 1,_-a01 c210?_A01 w21 all30 +c21_-a01 w210.__4 a65._A65 4._-4 a65,_Whe*'s365 4?__S+s787 by38o*,_T+sh7 s+s7 a*87,9._So if s+s787 on38o*,_Then9 s+s78o* sh7.";$a="0 wood;1chuck;2ould ;3 the;4Peter Piper picked;5 pickled peppers;6 peck of;7ells;8 seash;9 I'm sure;+he ;-If ;*re;_\n";foreach(explode(";",$a)as$c)$r=str_replace($c[0],substr($c,1),$r);echo$r
