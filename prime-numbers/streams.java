@@ -1,0 +1,1 @@
+import java.util.stream.*;class M{public static void main(String[]args){IntStream.rangeClosed(2,100).filter(M::k).forEach(System.out::println);}public static boolean k(int n){return IntStream.range(2,n).noneMatch(i->n%i<1);}}
